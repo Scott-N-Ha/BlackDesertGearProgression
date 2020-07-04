@@ -169,11 +169,11 @@ var classes = [{
   subWeapon: 'Talisman'
 }, {
   name: 'Dark Knight',
-  mainWeapon: 'Amulet',
+  mainWeapon: 'Kriegsmesser',
   subWeapon: 'Ornamental Knot'
 }, {
   name: 'Void Knight',
-  mainWeapon: 'Amulet',
+  mainWeapon: 'Kriegsmesser',
   subWeapon: 'Ornamental Knot'
 }];
 /* harmony default export */ __webpack_exports__["default"] = (classes);
@@ -317,7 +317,7 @@ var Character = /*#__PURE__*/function (_React$Component) {
           name = _this$state.name,
           characterClass = _this$state.characterClass;
       if (characterClass === '') return _this.classSelector();
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), characterClass.name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('mainWeapon'), _this.gearSelector('mainWeapon'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('subWeapon'), _this.gearSelector('subWeapon'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('Helmet'), _this.gearSelector('Helmet'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('Armor'), _this.gearSelector('Armor'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('Glove'), _this.gearSelector('Glove'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('Shoe'), _this.gearSelector('Shoe'));
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), characterClass.name, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.classSelector(), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('mainWeapon'), _this.gearSelector('mainWeapon'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('subWeapon'), _this.gearSelector('subWeapon'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('Helmet'), _this.gearSelector('Helmet'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('Armor'), _this.gearSelector('Armor'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('Glove'), _this.gearSelector('Glove'), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), _this.displayGear('Shoe'), _this.gearSelector('Shoe'));
     });
 
     _this.state = {

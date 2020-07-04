@@ -122,6 +122,8 @@ class Character extends React.Component {
         <br />
         { characterClass.name }
         <br />
+        { this.classSelector() }
+        <br />
         { this.displayGear('mainWeapon') }
         { this.gearSelector('mainWeapon')}
         <br />
